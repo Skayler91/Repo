@@ -1,0 +1,39 @@
+.grad {
+    background-image: linear-gradient(to right, black, rgb(30, 30, 30), black);
+}
+
+.gray {
+    color: gray;
+}
+
+.bg-black {
+    background-color: black;
+}
+body {
+    font-family: "Work Sans";
+    color: whitesmoke; 
+}
+
+#pages__main--height {
+    min-height: 87vh;
+}
+
+.border__radius {
+    border-radius: 30px 30px;
+    border: solid 3px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+.font__dancing{
+    font-family: "Dancing Script";
+    font-size: 3em;
+}
+
+.font__roboto {
+    font-family: "Roboto";
+    font-size: 0.8em;
+}
