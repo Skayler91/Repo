@@ -22,14 +22,12 @@
     border: 2px solid whitesmoke;
     color: whitesmoke;
     margin: 3px;
-
-}
-
-.boton__formulario:hover {
+    &:hover {
     background-color: whitesmoke;
     border: 2px solid whitesmoke;
     color: black;
     cursor: pointer;
+    }
 }
 
 form {
@@ -53,8 +51,7 @@ textarea {
 
 .item {
     transition: .5s ease-in-out;
-}
-
-.item:hover {
+    &:hover {
     filter: brightness(80%);
+    }
 }
