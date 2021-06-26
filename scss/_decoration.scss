@@ -2,12 +2,32 @@
     background-image: linear-gradient(to right, black, rgb(30, 30, 30), black);
 }
 
+.grad2{
+    background-image: linear-gradient(to right, white, rgb(30,30,30),    black);
+}
+
+.grad3{
+    background-image: linear-gradient(to left, white, rgb(30,30,30),    black);
+}
+
 .gray {
     color: gray;
 }
 
-.bg-black {
+.bg-white{
+    background-color: white;
+}
+
+.colour-black{
+    color: black;
+}
+
+.bg-black{
     background-color: black;
+}
+
+.bg-gray {
+    background-color:rgb(18,18,18);
 }
 body {
     font-family: "Work Sans";
@@ -15,7 +35,7 @@ body {
 }
 
 #pages__main--height {
-    min-height: 87vh;
+    min-height: 90vh;
 }
 
 .border__radius {

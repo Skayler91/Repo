@@ -1,9 +1,32 @@
-.footer__contain {
-    padding: 4px;
-    background-color: black;
-    height: auto;
-    text-align: center;
-    font-size: small;
-    font-family: "Roboto";
+.container__footer {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  text-decoration: none;
+  justify-content: center;
+  list-style: none;
+}
+
+.container__footer--main {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  text-decoration: none;
+  justify-content: center;
+  list-style: none;
+  
+}
+
+
+.container__mapa {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  text-decoration: none;
+  list-style: none;
 }
 

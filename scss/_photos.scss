@@ -1,5 +1,12 @@
 .img__fix{
-    max-height: 87vh;
+    max-height: 90vh;
     max-width: 100%;
     object-fit: cover;
 }
+
+.main__height{
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100%;
+}
+
